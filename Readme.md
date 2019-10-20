@@ -24,7 +24,9 @@ Minimun specs are included in the Readme for each individual script.
 # Scripts Included
 
 * Write Network
+
 ** Writes all of the items from a connected Applied Energetics Network to a file on the computer 
 
 * AE Storage Cleaner
+
 ** Will automatically clean items from an attached Applied Energetics Network, by: limiting the number of a certain item, discarding all of one item, compressing an item, or storing it in another chest. 
