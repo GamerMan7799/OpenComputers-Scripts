@@ -29,22 +29,39 @@ This configure file controls how the script will handle different items within y
 Keep in mind the script will always discard the first line of information.
 
 The columns are:
+
 * Name
-** The name of the item, as it appears when you hover over it
+
+* * The name of the item, as it appears when you hover over it
+
 * Action
-** The action you want to script to take 
-*** Cap = Discards the item when it exceeds the limit
-*** Store = Stores the item 
-*** Discard = always discards the item 
-*** Compress = Will use crafting CPUs to compress an item, such as turning ingots into blocks (currently WIP)
+
+* * The action you want to script to take 
+
+* * * Cap = Discards the item when it exceeds the limit
+
+* * * Store = Stores the item 
+
+* * * Discard = always discards the item 
+
+* * * Compress = Will use crafting CPUs to compress an item, such as turning ingots into blocks (currently WIP)
+
 * Limit
-** The limit of the item, used for cap and compress only, you can set to 0 for store and discard, or leave blank. 
+
+* * The limit of the item, used for cap and compress only, you can set to 0 for store and discard, or leave blank. 
+
 * Label_optional
-** Since some mods use multiple items under the same item name, the label is what Minecraft says the name of the item is. It will look for the label within the name of item, do not include any spaces, use "_" if you do not want to use the label for a compressed material. 
+
+* * Since some mods use multiple items under the same item name, the label is what Minecraft says the name of the item is. It will look for the label within the name of item, do not include any spaces, use "_" if you do not want to use the label for a compressed material.
+ 
 * Compress_name
-** Minecraft item name of the compressed material
+
+* * Minecraft item name of the compressed material
+
 * Compress_label_optional
-** Label for the compressed material.
+
+* * Label for the compressed material.
+
 
 Example:
 
@@ -66,12 +83,18 @@ Keep in mind the script will always discard the first line of information.
 This configure file controls what addresses are used for the different items.
 
 Columns of information are:
+
 * Bus 
-** Name of the bus, supports controller, void, or store 
+
+* * Name of the bus, supports controller, void, or store 
+
 * Address 
-** The address of the bus that you get with you Shift-right click on the adapter with the Analyzer
+
+* * The address of the bus that you get with you Shift-right click on the adapter with the Analyzer
+
 * Direction
-** Direction that the export bus is facing, this is required for the script. You can leave controller blank, or just use "none" so it doesn't matter for the controller. 
+
+* * Direction that the export bus is facing, this is required for the script. You can leave controller blank, or just use "none" so it doesn't matter for the controller. 
 
 Example
 
